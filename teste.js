@@ -15,8 +15,7 @@ var funcionarios =
             "url": "http://www.estripafurgia.com.br/",
             "idade": 47
         }
-    }
-;
+    };
  
 
 var funcionario = JSON.parse(funcionarios);

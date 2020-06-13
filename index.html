@@ -8,32 +8,16 @@
 </head>
 <body>
     <script>
-        var funcionarios = {
-        "Marconildo":
-        {
-            "url": "http://www.marconildo.com.br/",
-            "idade": "34"
-        },
-        "Joanorta":
-        {
-            "url": "http://www.joanorta.com.br/",
-            "idade": "22"
-        },
+ var frutas = '{
+     "nome": "banana",
+     "preço": 15.50,
+     "tipo": ["prata", "maçã", "nanica", "da terra", "ouro"],
+     "origem": "Brasil"
+ }'
 
-        "Jurema":
-        {
-             "url": "http://www.estripafurgia.com.br/",
-            "idade": "48"
-        }
-    }
-   ;
+console.log(frutas);
+
     
-    var funcionario = JSON.parse(funcionarios);
-        function funciona(){
-            
-            alert(funcionario.Marconildo.idade);
-        }
-    </script>
     <h1>Segue mudei o bagulho, opa!</h1>
     <button onclick="funciona()">Vai caraí</button>
     

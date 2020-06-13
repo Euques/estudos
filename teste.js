@@ -20,5 +20,7 @@ var funcionarios =
 
 var funcionario = JSON.parse(funcionarios);
  
-alert(funcionario.Marconildo);
-alert(funcionario.Marconildo.idade);
+function funciona(){
+    alert(funcionario.Marconildo);
+    alert(funcionario.Marconildo.idade);
+}

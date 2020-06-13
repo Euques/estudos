@@ -18,6 +18,7 @@ var funcionarios =
     }
 ;
  
+
 var funcionario = JSON.parse(funcionarios);
  
 alert(funcionario.Marconildo);

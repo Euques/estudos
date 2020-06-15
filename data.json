@@ -8,7 +8,7 @@
       {
         "name": "Pizzaria do Zé",
         "nota": 9,
-        "secretIdentity": "José Alberto",
+        "proprietario": "José Alberto",
         "powers": [
           "Pizza de Mussarela",
           "Pizza de Atum",
@@ -18,7 +18,7 @@
       {
         "name": "Mama Pizzaria",
         "nota": 10,
-        "secretIdentity": "Marli Pereira",
+        "proprietario": "Marli Pereira",
         "powers": [
           "Pizza de Milho",
           "Pizza de Mandioca",
@@ -28,7 +28,7 @@
       {
         "name": "Tiago´s Pizza",
         "nota": 8,
-        "secretIdentity": "João Paulo",
+        "proprietario": "João Paulo",
         "powers": [
           "Pizza de Catupiry",
           "Pizza com Bordas",

@@ -6,6 +6,7 @@
     "active": true,
     "members": [
       {
+        "imagem": "img/pizza1.png",
         "name": "Pizzaria do Zé",
         "nota": 9,
         "proprietario": "José Alberto",
@@ -16,6 +17,7 @@
         ]
       },
       {
+        "imagem": "img/pizza2.png",
         "name": "Mama Pizzaria",
         "nota": 10,
         "proprietario": "Marli Pereira",
@@ -26,6 +28,7 @@
         ]
       },
       {
+        "imagem": "img/pizza3.png",
         "name": "Tiago´s Pizza",
         "nota": 8,
         "proprietario": "João Paulo",

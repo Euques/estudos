@@ -49,6 +49,7 @@ function showHeroes(jsonObj) {
     var heroes = jsonObj['members'];
         
     for (var i = 0; i < heroes.length; i++) {
+      var myImg = document.createElement('img');
       var myArticle = document.createElement('article');
       var myH2 = document.createElement('h2');
       var myPara1 = document.createElement('p');
@@ -67,7 +68,7 @@ function showHeroes(jsonObj) {
         listItem.textContent = superPowers[j];
         myList.appendChild(listItem);
       }
-  
+      myArticle.appendChild(myImg);
       myArticle.appendChild(myH2);
       myArticle.appendChild(myPara1);
       myArticle.appendChild(myPara2);

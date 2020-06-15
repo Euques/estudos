@@ -7,7 +7,7 @@
     "members": [
       {
         "name": "Pizzaria do Zé",
-        "age": 09,
+        "age": 9,
         "secretIdentity": "José Alberto",
         "powers": [
           "Pizza de Mussarela",
@@ -27,7 +27,7 @@
       },
       {
         "name": "Tiago´s Pizza",
-        "age": 08,
+        "age": 8,
         "secretIdentity": "João Paulo",
         "powers": [
           "Pizza de Catupiry",

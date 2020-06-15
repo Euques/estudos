@@ -29,7 +29,7 @@
       },
       {
         "imagem": "img/pizza3.png",
-        "name": "Tiago´s Pizza",
+        "name": "Tiago´s Irmãos",
         "nota": 8,
         "proprietario": "João Paulo",
         "especialidades": [
@@ -38,6 +38,17 @@
           "Pizza Meia a Meio",
           "Pizza 3 Sabores",
           "Brotinhos"
+        ]
+      },
+      {
+        "imagem": "img/pizza2.png",
+        "name": "Paulina Pizzaria",
+        "nota": 6,
+        "proprietario": "Marli Pereira",
+        "especialidades": [
+          "Pizza de Milho",
+          "Pizza de Mandioca",
+          "Pizza de Uva"
         ]
       }
     ]

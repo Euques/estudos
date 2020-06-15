@@ -11,7 +11,7 @@ html {
   }
   
   img {
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
   }
 
@@ -30,12 +30,14 @@ html {
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
+    align-content: center;
   }
   
   /* section styles */
   
   section article {
-    
+    width: 33%;
+    float: right;
     padding: 30px;
     border-radius: 20px;
     background-color: rgb(230, 229, 228);

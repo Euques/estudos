@@ -6,35 +6,35 @@
     "active": true,
     "members": [
       {
-        "name": "Molecule Man",
-        "age": 29,
-        "secretIdentity": "Dan Jukes",
+        "name": "Pizzaria do Zé",
+        "age": 09,
+        "secretIdentity": "José Alberto",
         "powers": [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast"
+          "Pizza de Mussarela",
+          "Pizza de Atum",
+          " Especial Feijoada"
         ]
       },
       {
-        "name": "Madame Uppercut",
-        "age": 39,
-        "secretIdentity": "Jane Wilson",
+        "name": "Mama Pizzaria",
+        "age": 10,
+        "secretIdentity": "Marli Pereira",
         "powers": [
-          "Million tonne punch",
-          "Damage resistance",
-          "Superhuman reflexes"
+          "Pizza de Milho",
+          "Pizza de Mandioca",
+          "Pizza de Uva"
         ]
       },
       {
-        "name": "Eternal Flame",
-        "age": 1000000,
-        "secretIdentity": "Unknown",
+        "name": "Tiago´s Pizza",
+        "age": 08,
+        "secretIdentity": "João Paulo",
         "powers": [
-          "Immortality",
-          "Heat Immunity",
-          "Inferno",
-          "Teleportation",
-          "Interdimensional travel"
+          "Pizza de Catupiry",
+          "Pizza com Bordas",
+          "Pizza Meia a Meio",
+          "Pizza 3 Sabores",
+          "Brotinhos"
         ]
       }
     ]

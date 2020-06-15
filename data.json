@@ -9,7 +9,7 @@
         "name": "Pizzaria do Zé",
         "nota": 9,
         "proprietario": "José Alberto",
-        "powers": [
+        "especialidades": [
           "Pizza de Mussarela",
           "Pizza de Atum",
           " Especial Feijoada"
@@ -19,7 +19,7 @@
         "name": "Mama Pizzaria",
         "nota": 10,
         "proprietario": "Marli Pereira",
-        "powers": [
+        "especialidades": [
           "Pizza de Milho",
           "Pizza de Mandioca",
           "Pizza de Uva"
@@ -29,7 +29,7 @@
         "name": "Tiago´s Pizza",
         "nota": 8,
         "proprietario": "João Paulo",
-        "powers": [
+        "especialidades": [
           "Pizza de Catupiry",
           "Pizza com Bordas",
           "Pizza Meia a Meio",

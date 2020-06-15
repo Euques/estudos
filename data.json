@@ -50,6 +50,19 @@
           "Pizza de Mandioca",
           "Pizza de Uva"
         ]
+      },
+      {
+        "imagem": "img/pizza3.png",
+        "name": "Carlinhos´s Pizza",
+        "nota": 8,
+        "proprietario": "João Paulo",
+        "especialidades": [
+          "Pizza de Catupiry",
+          "Pizza com Bordas",
+          "Pizza Meia a Meio",
+          "Pizza 3 Sabores",
+          "Brotinhos"
+        ]
       }
     ]
   }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>duplicar formulário</title>
+</head>
+<body>
+    <form id="form">
+        <fielset id="group">
+            <label for="nome">Nome do amigo</label>
+            <input type="text" required classs="form__input" name="nome"/>
+        
+            <label for="email">E-mail do amigo</label>
+            <input type="text" required classs="form__input" name="email"/>
+        </fielset>
+
+    </form>
+
+    <button onclick="add()"> + </button>
+
+<script>
+
+function add() {
+    var x = '<div><fielset id="group"><label for="nome">Nome do amigo</label><input type="text" required classs="form__input" name="nome"/><label for="email">E-mail do amigo</label><input type="text" required classs="form__input" name="email"/></fielset></div>'; // colocar código html aqui.
+    document.getElementById('form').innerHTML += x; // id_form id do seu formulário.
+}
+
+var n = 0;
+function addNovo(){
+    var element = document.getElementById("group")
+    var copy= document.cloneNode(element);
+    n++;
+
+    copy.getElementsByTagName('label')[0].htmlFor= 'nome'+n;
+    copy.getElementsByTagName('input')[0].id= 'nome'+n;
+    copy.getElementsByTagName('label')[1].htmlFor= 'email'+n;
+    copy.getElementsByTagName('input')[1].id= 'email'+n;
+
+    element.parentNode.appendChild(copy);   
+}
+</script>  
+</body>
+</html>

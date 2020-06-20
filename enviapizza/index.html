@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Salva Pizza</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<meta name="description" content="teste envia" />
+		<meta property="og:site_name" content="Salva Pizza" />
+		<meta property="og:title" content="Salva Pizza" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="teste envia" />
+		<link href="https://fonts.googleapis.com/css?family=Inter:300,300italic,400,400italic%7CSource+Sans+Pro:400,400italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="assets/main.css" />
+		<noscript><link rel="stylesheet" href="assets/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+		<div id="wrapper">
+			<div id="main">
+				<div class="inner">
+					<div id="container01" class="style1 container default">
+						<div class="inner">
+							<div id="image01" class="image">
+								<img src="assets/images/image01.png" alt="" />
+							</div>
+							<h1 id="text01" class="style1">Jane Doe</h1>
+							<p id="text02" class="style2">Bem vindo!</p>
+						</div>
+					</div>
+					<ul id="buttons04" class="style1 buttons">
+						<li>
+							<a href="#" class="button n01"><svg><use xlink:href="assets/icons.svg#arrow-down-alt-light"></use></svg><span class="label">Cadastrar uma pizza</span></a>
+						</li>
+					</ul>
+					<hr id="divider06" class="style1">
+					<div id="container06" class="style2 container columns">
+						<div class="inner">
+							<div class="full">
+								<div id="image06" class="image full" data-position="center">
+									<img src="assets/images/image06.jpg" alt="" />
+								</div>
+							</div>
+							<div>
+								<form enctype="multipart/form-data" id="form02" method="post" action="#">
+									<div class="inner">
+										<div class="field">
+											<input type="text" name="buscar-uma-pizza" id="form02-buscar-uma-pizza" placeholder="Buscar uma pizza" maxlength="256" required />
+										</div>
+										<div class="actions">
+											<button type="submit">Buscar</button>
+										</div>
+									</div>
+									<input type="hidden" name="id" value="form02" />
+								</form>
+								<form enctype="multipart/form-data" id="form01" method="post" action="#">
+									<div class="inner">
+										<div class="field">
+											<select name="listar-pizzas" id="form01-listar-pizzas" required>
+												<option value="">&ndash; Listar pizzas &ndash;</option>
+												<option value="value1">Value One</option>
+												<option value="value2">Value Two</option>
+												<option value="value3">Value Three</option>
+											</select>
+										</div>
+										<div class="actions">
+											<button type="submit">Buscar</button>
+										</div>
+									</div>
+									<input type="hidden" name="id" value="form01" />
+								</form>
+								<h2 id="text24" class="style3">Cadastrar uma Pizza</h2>
+								<form enctype="multipart/form-data" id="form05" method="get" action="">
+									<div class="inner">
+										<div class="field">
+											<input type="text" name="nomepizza" id="form05-quantadae" placeholder="Nome da Pizza" maxlength="256" value="Pizza inteira" required />
+										</div>
+										<div class="field">
+											<input type="text" name="r-preo" id="form05-r-preo" placeholder="R$ Pre&ccedil;o" maxlength="256" value="1" required />
+										</div>
+										<div class="field">
+											<textarea name="descrio" id="form05-descrio" placeholder="Descri&ccedil;&atilde;o" required></textarea>
+										</div>
+										<div class="field">
+											<!--<div class="file" data-placeholder="Foto" data-filename="">
+												<input type="file" accept="image/jpeg, image/jpg, image/gif, image/png" name="foto" id="form05-foto" required /> 
+											</div>-->
+											<input type="text" name="fotopizza" id="form05-foto" placeholder="Url foto" value="Url foto" required />	
+										</div>
+										<div class="actions">
+											<!--<button type="submit">Submit</button>-->
+										</div>
+									</div>
+								</form>
+								<ul id="buttons02" class="style3 buttons">
+									<li>
+										<a class="button n01" onclick="grava()"><svg><use xlink:href="assets/icons.svg#check"></use></svg><span class="label">Inserir</span></a>
+									</li><li>
+										<a class="button n02"><svg><use xlink:href="assets/icons.svg#email"></use></svg><span class="label">editar</span></a>
+									</li><li>
+										<a href="" class="button n03"><svg><use xlink:href="assets/icons.svg#cancel"></use></svg><span class="label">Excluir</span></a>
+									</li>
+								</ul>
+								<div>
+
+									<h2 id="status" class="style3">Status</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="container05" class="style4 container default">
+						<div class="inner">
+							<h1 id="text10" class="style5">Teste Euques</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="assets/main.js"></script>
+		<script src="grava.js"></script>
+	</body>
+</html>
